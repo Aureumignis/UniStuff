@@ -1,0 +1,61 @@
+   Abbildungen: (f : aïƒ b)                                                                                               
+   Injektiv: x1 â‰  x2 ïƒ  f(x1) â‰  f(x2) 
+           f(x1) = f(x2) ïƒ  x1 = x2 
+   Surjektiv: yâˆˆY ïƒ  xâˆˆX : f(x) = y 
+           dim(a) â‰¤ dim(b) 
+   Bijektiv : Injektiv und Surjektiv 
+   Determinanten:                                                                                                      Integrale: 
+                    3í±¥í µ3
+   Rechenregeln: í°´í µ    = det(A) 
+   =>a11*det(í±Ží µ22,í±Ží µ23,í±Ží µ32,í±Ží µ33) â€“ 
+   a12*det(í±Ží µ21,í±Ží µ23,í±Ží µ31,í±Ží µ33) + 
+   a13*det(í±Ží µ21,í±Ží µ22,í±Ží µ31,í±Ží µ32)  
+   Grenzwertsatz:                                              
+   |Folge(bis âˆž) â€“ Grenzwert| < Fehler(í¼€í µ)                    Gerade Funktion: f(-x) = f(x) (Achsensymetrie) 
+   Grenzwertbestimmen: n gegen âˆž                              Ungerade Funktion: f(-x) = -f(x) (Punktsymetrie) 
+   laufenlassen (nahrhafte Eins + 
+   3.Binom)                                                  Grenzwertentwicklung an einem Punkt: 
+   Konvergenz: hat Grenzwert                                 Linksseitiger Grenzwert: NÃ¤herung von unten 
+   Divergenz: keinen Grenzwert (unbestimmte                  Rechtsseitiger Grenzwert: NÃ¤herung von oben 
+           Divergenz alterniert)                             Hierzu wenn mÃ¶glich einsetzen oder Grenzwert 
+   Grenzwertkriterien:                                       bestimmen. 
+                                                             Stetigkeit in einem Punkt: 
+                                                                 1.  Es gibt einen Funktionswert 
+                                                                 2.  Links- und rechtsseitiger Grenzwert 
+                                                                     stimmen Ã¼berein 
+                                                                 3.  Grenzwert = Funktionswert                          
+                                                             Diffbar wenn Stetig und ableitbar (Betrag ist     Kettenregel + Ableitung der Umkehrfunktion 
+                                                             nicht ableitbar) 
+                                                                                 
+                                                                                 
+    Taylorreihen 
+                                í±›í µ+1
+    R(n) = C/(n+1)! * (í±¥í µ âˆ’ í±¥í µ )     
+                              0
+    C = í±“í µí±›í µ +1(a)   , a í¼–í µ [í±¥í µ, í±¥í µ ] V í¼–í µ [í±¥í µ , í±¥í µ] 
+                               0        0
+    Taylorbeweis: 
+    Induktion Ã¼ber n-te Ableitung, da (n+1)-
+    te Ableitung ist gleich der Ableitung der                          Definitheit am Punkt X: 
+    nâ€“ten Ableitung 
+     
+    Substitution: t = irgendein gegebener Term 
+             t nach x ableiten = dt/dx 
+             nach dx umstellen, dx = dt/(t abgelitten) 
+             t und dx in integral einsetzten 
+             kÃ¼rzen, aufleiten, zurÃ¼cktauschen 
+     
+    Partielle Ableitung: fx(x,y) = f(x,y) ïƒ  x als Variable y als        
+    Konstante nach Ableitungsregeln behandeln                          Extrempunktkandidaten bei Gleichungen mit 
+    Gradient: fx(x,y) und fy(x,y) in einem Vektor aufschreiben         mehreren variablen und Nebenbedingung: 
+    Richtungsableitung: normierter Richtungsvektor *                   Nebenbedingung nach 0 umgestellt = â€žÎ»(x,y)â€œ 
+    Gradienten                                                         Lagrangefunktion: L(x,y) = f(x,y) + Î»*(n(x,y)) 
+    Jacobi: (j11 = fx(x,y), j12 = fy(x,y), j21 = gx(x,y), j22 =        Lx(x,y) = fx(x,y) + Î» x(x,y) * Î» 
+    gy(x,y))                                                           Ly(x,y) = fy(x,y) + Î»y(x,y) * Î» 
+    Hesse: (h11 = fxx(x,y), j12 = fxy(x,y), j21 = fyx(x,y), j22 =      Gleichungssystem aus Lx(x,y), Ly(x,y) und Î» (x,y), daraus x 
+    fyy(x,y))                                                          und y bestimmen (x,y sind die Kandidaten) 
+     fxy(x,y) = fyx(x,y)                                                
+                                                                        
+                                                                       Fubini:  
+     
+     
