@@ -4,3 +4,11 @@ u2:2	Vortragspunkt
 u3:4
 u4:4
 u5:2?
+u6: 4 	Vortragspunkt 6.
+
+u7:3
+u8:3
+u9:4
+u10:3
+u11:5
+u12
